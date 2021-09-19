@@ -92,6 +92,7 @@ body {
     letter-spacing: 0.06em;
     color: var(--primary-title-color);
     background-color: #2196F3;
+    cursor: pointer;
  }
 .hero-btn:focus,
 .hero-btn:hover{
@@ -200,6 +201,7 @@ body {
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--secondary-title-color);
+    cursor: pointer;
 }
 /* GALARY */
 .project-list {
