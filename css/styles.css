@@ -49,7 +49,7 @@ body {
 .heder-link:hover,
 .heder-link:focus,
 .contact-item:hover,
-.contact-item:focus {
+.contact-item:focus{
     color:var(--secondary-text-color);
 }
 .current {
@@ -93,6 +93,11 @@ body {
     color: var(--primary-title-color);
     background-color: #2196F3;
  }
+.hero-btn:focus,
+.hero-btn:hover{
+    background-color: var(--secondary-text-color);
+    color: var(--secondary-title-color);
+}
 
  .about-us {
     font-family: Roboto;
